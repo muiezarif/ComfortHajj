@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/wallpaper3"
+    tools:context=".usersignedin.MainUserSignedInFragment">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_weight="4">-->
+        <!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+        <EditText
+            android:id="@+id/search_user_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="7dp"
+            android:layout_weight="3"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Search users"
+            android:inputType="text"
+            android:textColor="#000" />
+
+        <ImageButton
+            android:id="@+id/btn_search_user"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:layout_alignTop="@+id/search_user_text"
+            android:layout_alignBottom="@+id/search_user_text"
+            android:layout_alignRight="@+id/search_user_text"
+            android:background="@drawable/btn_search" />
+    <!--</LinearLayout>-->
+
+    <ListView
+        android:id="@+id/search_user_list"
+        android:layout_width="match_parent"
+        android:layout_height="623dp"
+        android:layout_above="@+id/adViewfindfriends"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="5dp" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewfindfriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="320x50"
+        ads:adUnitId="ca-app-pub-7701765309854052/3375911767">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

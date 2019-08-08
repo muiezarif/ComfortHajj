@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:whilu="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TasbeehCounter">
+    <TextView
+        android:id="@+id/tasbeehcounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="0"
+        android:textColor="#D4AF37"
+        android:textSize="200sp" />
+
+    <com.github.whilu.library.CustomButton
+        android:id="@+id/btn_counter"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="137dp"
+        android:text="count"
+        android:textColor="@color/white"
+        whilu:pressed_color="#868183"
+        whilu:round_radius="10dp"
+        whilu:unpressed_color="#4f494b" />
+
+    <com.github.whilu.library.CustomButton
+        android:id="@+id/btn_clearcounter"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_counter"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="6dp"
+        android:text="clear"
+        android:textColor="@color/white"
+        whilu:pressed_color="#868183"
+        whilu:round_radius="10dp"
+        whilu:unpressed_color="#4f494b" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewtasbeeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="682dp"
+        ads:adSize="320x50"
+        ads:adUnitId="ca-app-pub-7701765309854052/3375911767"/>
+
+</RelativeLayout>

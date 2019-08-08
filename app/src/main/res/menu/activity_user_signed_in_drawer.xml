@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/img_add_users"
+            android:title="Find Friends!" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/img_map"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_hotel"
+            android:icon="@drawable/img_hotel"
+            android:title="My Hotel" />
+        <item
+            android:id="@+id/nav_Message"
+            android:icon="@drawable/img_msg"
+            android:title="Message Friends" />
+        <item
+            android:id="@+id/nav_linkRequests"
+            android:icon="@drawable/friend_request"
+            android:title="Friend Requests" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/img_user_icon"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_all_users"
+            android:icon="@drawable/img_emg_icon"
+            android:title="Emergency" />
+        <item
+            android:id="@+id/nav_connected_users"
+            android:icon="@drawable/img_friends_icon"
+            android:title="Friends" />
+        <item
+            android:id="@+id/nav_tasbeeh_counter"
+            android:icon="@drawable/img_tasbeeh_counter"
+            android:title="Tasbeeh counter" />
+        <item
+            android:id="@+id/nav_hajjGuide"
+            android:icon="@drawable/img_hajj_guide_icon"
+            android:title="Hajj Guide" />
+        <item
+            android:id="@+id/nav_qibla_compass"
+            android:icon="@drawable/compass_icon"
+            android:title="Qibla Direction"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_call_friends"-->
+            <!--android:icon="@drawable/call_icon"-->
+            <!--android:title="Call friends"/>-->
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings_icon"
+            android:title="Settings"/>
+
+
+    </group>
+
+
+</menu>

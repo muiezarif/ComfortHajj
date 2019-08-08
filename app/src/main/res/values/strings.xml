@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ComfortHajj</string>
+    <string name="title_activity_user_signed_in">UserSignedIn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_notification_channel_id">ComfortHajj</string>
+    <string name="google_maps_key">AIzaSyBI-IxUMknZPXXhSasHwE1xjEKEn4NkCEE</string>
+    <string name="sinch_key">16db9ec9-6a1f-4219-84ae-65e46cb41d40</string>
+    <string name="sinch_secret_key">1kar7mzsoUGwLss3hYtKuQ==</string>
+    <string name="google_ads_app_id">ca-app-pub-7701765309854052~5818242271</string>
+    <string name="google_server_key">AIzaSyBpqon2SGE25oHTjTlBGwabkSh_gB5jOa8</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_hotel_map">Map</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>

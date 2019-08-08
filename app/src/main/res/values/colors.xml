@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#242a2f</color>
+    <color name="colorPrimaryDark">#d6e0e9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="textColor">#6e6e6e</color>
+    <color name="btnDefault">#4f494b</color>
+    <color name="btnSecond">#6a6466</color>
+    <color name="btnThird">#868183</color>
+    <color name="btnEmgDef">#9b111e</color>
+    <color name="btnEmgSecond">#b2443e</color>
+
+</resources>
